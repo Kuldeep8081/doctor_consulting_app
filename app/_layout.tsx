@@ -17,6 +17,16 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+        <Stack.Screen name="Concern2Screen" options={{headerShown:false}} />
+        <Stack.Screen name="ScheduleScreen" options={{headerShown:false}} />
+        <Stack.Screen name="ChooseDateScreen" options={{headerShown:false}} />
+        <Stack.Screen name="ChooseTimeSlotScreen" options={{headerShown:false}} />
+        <Stack.Screen name="YourConcernScreen" options={{headerShown:false}} />
+        <Stack.Screen name="BasicInfoScreen" options={{headerShown:false}} />
+        <Stack.Screen name="AppointmentConfirmedScreen" options={{headerShown:false}} />
+        <Stack.Screen name="PaymentSuccessfull" options={{headerShown:false}} />
+        <Stack.Screen name="MyBookingsScreen" options={{headerShown:false}} />
+        <Stack.Screen name="test" options={{ presentation: 'card', title: 'Test' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

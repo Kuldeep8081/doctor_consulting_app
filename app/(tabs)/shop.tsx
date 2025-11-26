@@ -2,15 +2,14 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { ThemedText } from '@/components/themed-text'
 
-const HomeScreen = () => {
+const ShopScreen = () => {
   return (
-     <View>
-       <ThemedText>index</ThemedText>
-     </View>
-    
+    <View>
+      <ThemedText>ShopScreen</ThemedText>
+    </View>
   )
 }
 
-export default HomeScreen
+export default ShopScreen
 
 const styles = StyleSheet.create({})
