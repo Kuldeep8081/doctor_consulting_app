@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+# 🩺 Doctor Consulting App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, user-friendly doctor consultation mobile application built using React Native + Expo, providing seamless appointment booking, doctor discovery, and patient management.
 
-## Get started
+## 📱 App Screenshots
+![WhatsApp Image 2025-11-30 at 10 21 26 AM](https://github.com/user-attachments/assets/81121082-0b45-48c3-9136-d7ac2620a15c)
 
-1. Install dependencies
+![WhatsApp Image 2025-11-30 at 10 21 25 AM (2)](https://github.com/user-attachments/assets/678a6320-4dda-4562-91d2-4b5b2a76c0ff)
 
-   ```bash
-   npm install
-   ```
+![WhatsApp Image 2025-11-30 at 10 21 25 AM (1)](https://github.com/user-attachments/assets/59824954-8584-4e70-9408-25356907bd16)
 
-2. Start the app
+![WhatsApp Image 2025-11-30 at 10 21 25 AM](https://github.com/user-attachments/assets/1c21cd31-1ac6-4702-b547-6bf197216c02)
 
-   ```bash
-   npx expo start
-   ```
+![WhatsApp Image 2025-11-30 at 10 21 24 AM (1)](https://github.com/user-attachments/assets/1902be77-8129-4421-95c1-6e91f68eb787)
 
-In the output, you'll find options to open the app in a
+![WhatsApp Image 2025-11-30 at 10 21 24 AM](https://github.com/user-attachments/assets/4d4fb26c-c2eb-40de-bdfd-6bf5ac85418c)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![WhatsApp Image 2025-11-30 at 10 21 23 AM (2)](https://github.com/user-attachments/assets/51ff9f60-5e80-4831-b30c-9a4881de699f)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![WhatsApp Image 2025-11-30 at 10 21 23 AM (1)](https://github.com/user-attachments/assets/8bf455ba-fe1b-4391-9309-b0cd79e1212b)
 
-## Get a fresh project
+![WhatsApp Image 2025-11-30 at 10 21 23 AM](https://github.com/user-attachments/assets/6b1f092e-d82d-418e-92b5-a0e35dd1cf0e)
+![WhatsApp Image 2025-11-30 at 10 21 22 AM (1)](https://github.com/user-attachments/assets/363b8a3d-0054-4b72-b3c0-47f8c394f2d4)
+![WhatsApp Image 2025-11-30 at 10 21 21 AM](https://github.com/user-attachments/assets/14833a7a-145a-427e-8c19-79e957a7b6c2)
 
-When you're ready, run:
+## ✨ Features
 
-```bash
-npm run reset-project
-```
+✔️ Browse list of verified doctors
+✔️ User authentication (Login/Signup)
+✔️ Book appointments with doctors
+✔️ Clean and modern UI
+✔️ Fully responsive mobile layout
+✔️ Easy-to-customize component structure
+✔️ Smooth navigation with Expo Router
+✔️ Secure backend-ready architecture (you can integrate APIs easily)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Tech Stack
 
-## Learn more
+| Layer                     | Technologies Used                             |
+| ------------------------- | --------------------------------------------- |
+| **Frontend**              | React Native, Expo                            |
+| **Navigation**            | Expo Router / React Navigation                |
+| **Styling**               | Tailwind/Custom Stylesheets                   |
+| **State Management**      | React Hooks / Context                         |
+| **Environment Variables** | `.env`, expo-env types                        |
+| **Others**                | TypeScript, vector icons, reusable components |
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🚀 Getting Started
+#### 1️⃣ Clone the repository
+git clone https://github.com/Kuldeep8081/doctor_consulting_app.git
+cd doctor_consulting_app
 
-## Join the community
+#### 2️⃣ Install dependencies
+npm install
 
-Join our community of developers creating universal apps.
+#### 3️⃣ Start the Expo server
+npx expo start
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#### 4️⃣ Run on device
+Press a → Android Emulator
+
+Press i → iOS Simulator
+
+Scan QR code via Expo Go on physical device
+
+## ⚙️ Environment Variables
+Create a .env file in root:
+EXPO_PUBLIC_API_URL=https://your-api-url.com
+EXPO_PUBLIC_APP_NAME=Doctor Consulting App
