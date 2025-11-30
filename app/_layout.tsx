@@ -26,6 +26,8 @@ export default function RootLayout() {
         <Stack.Screen name="AppointmentConfirmedScreen" options={{headerShown:false}} />
         <Stack.Screen name="PaymentSuccessfull" options={{headerShown:false}} />
         <Stack.Screen name="MyBookingsScreen" options={{headerShown:false}} />
+        <Stack.Screen name="AppointmentDetailsScreen" options={{headerShown:false}} />
+        <Stack.Screen name="VideoCallScreen" options={{headerShown:false}} />
         <Stack.Screen name="test" options={{ presentation: 'card', title: 'Test' }} />
       </Stack>
       <StatusBar style="auto" />
